@@ -1,7 +1,7 @@
 export const info = {
   baseUrl: "https://astro-portfolio-uzair.vercel.app",
-  name: "Uzair Ahmed",
-  jobDescription: "Web Developer",
+  name: "William To",
+  jobDescription: "Software Engineer",
   about: `I'm a software engineer based in Karachi, Pakistan.
    I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between.
    I have been working for 3 year, with a demonstrated history of working in the Computer Software industry. Skilled in Front-end Development.
@@ -14,9 +14,9 @@ export const info = {
 
   experience: [
     {
-      name: "InterNative Labs, LLC",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "Apr 2022",
+      name: "Picnet",
+      location: "Crows Nest, NSW",
+      startDate: "Feb 2022",
       endDate: "Present",
       description: [
         "- Developing screens and UI components for the web application using React and Tailwind.",
@@ -25,11 +25,17 @@ export const info = {
     },
 
     {
-      name: "Coupon Approve (Remote)",
+      name: "Benevolence Financial Group",
       location: "Amsterdam, North Holland, Netherlands",
-      startDate: "Nov 2020",
+      startDate: "Aug 2020",
       endDate: "Apr 2022",
       description: [
+        "Benevolence Financial Group (BFG) is a social enterprise mortgage and finance brokerage firm which utilises technology to automate the process of applying for a loan.",
+        "✓ Built a proprietary home loan CRM tool using the ASP .NET Framework and sales trekker API for comparing and suggesting home loans to customers",
+        "✓ Supported end to end software development for CRM tool from concept to deployment",
+        "✓ Developed landing pages for targeted marketing",
+        "✓ Responsible for coordinating the team to ensure technical quality and on time business delivery",
+        "✓ Worked in a cross-functional team utilising agile development",
         "✓ Developing code in accordance with appropriate design and architectural rules",
         "✓ Documenting, testing, deployment, maintenance, support of platforms, applications, databases and solutions",
         "✓ Help and training of other colleagues",
@@ -53,36 +59,29 @@ export const info = {
 
   education: [
     {
-      name: "Pakistan Institute of Professional Science & Technology (PIPS-TECH)",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "2019",
-      endDate: "2022",
+      name: "Bachelor of Engineering (Honours) Diploma in Professional Engineering Practice (ICT) (Software)",
+      location: "University Of Technology Sydney",
+      startDate: "2015",
+      endDate: "Current",
       description: [
-        "Diploma of Associate Engineering,  Computer Information Technology (CIT)",
+        " GPA: 6.25",
+        " WAM: 82",
       ],
     },
     {
-      name: "Govt. Degree Boys College Buffer Zone",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "2018",
-      endDate: "2020",
-      description: ["Intermediate, Pre-Engineering"],
+      name: "High School Certificate",
+      location: "Westfield Sports High School",
+      startDate: "2009",
+      endDate: "2015",
+      description: [""],
     },
-    {
-      name: "Ghazi Foundation Schools & Colleges",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "2016",
-      endDate: "2018",
-      description: ["Matriculation,  Computer Science"],
-    },
+
   ],
 
   socialMedia: {
-    facebook: "https://www.facebook.com/profile.php?id=100022899849583",
-    twitter: "https://twitter.com/Uzzii_21",
-    github: "https://github.com/uzzii-21",
-    email: "uzairahmed@74372gmail.com",
-    linkedin: "https://www.linkedin.com/in/uzzii21/",
+    github: "https://https://github.com/willyyto",
+    email: "williamto222@gmail.com",
+    linkedin: "https://www.linkedin.com/in/willy2/",
   },
 
   projects: [

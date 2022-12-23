@@ -5,4 +5,10 @@ const createLogo = (name) =>
     .join("")
     .toUpperCase();
 
-export { createLogo };
+const ToUpper = (name) =>
+  name
+    .split(" ")
+    .join("")
+    .toUpperCase();
+
+export { createLogo, ToUpper };
