@@ -1,5 +1,5 @@
 export const info = {
-  baseUrl: "https://astro-portfolio-uzair.vercel.app",
+  baseUrl: "https://www.williamto.com",
   name: "William To",
   jobDescription: "Software Engineer",
   about: `I am a software engineering student with a passion for technology and business. It is my career objective to improve upon my
@@ -69,11 +69,11 @@ export const info = {
 
   projects: [
     {
-      title: "Astro Portfolio",
+      title: "Personal Portfolio",
       isFeatured: true,
       thumbnail: "/assets/images/astro-portfolio.png",
-      githubUrl: "https://github.com/uzzii-21/astro-portfolio",
-      liveUrl: "https://astro-portfolio-uzair.vercel.app/",
+      githubUrl: "https://github.com/willyyto",
+      liveUrl: "https://www.williamto.com",
     },
   ],
 };
