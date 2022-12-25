@@ -62,7 +62,7 @@ export const info = {
   ],
 
   socialMedia: {
-    github: "https://https://github.com/willyyto",
+    github: "https://github.com/willyyto",
     email: "williamto222@gmail.com",
     linkedin: "https://www.linkedin.com/in/willy2/",
   },
