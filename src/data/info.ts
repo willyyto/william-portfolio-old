@@ -2,14 +2,8 @@ export const info = {
   baseUrl: "https://astro-portfolio-uzair.vercel.app",
   name: "William To",
   jobDescription: "Software Engineer",
-  about: `I'm a software engineer based in Karachi, Pakistan.
-   I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between.
-   I have been working for 3 year, with a demonstrated history of working in the Computer Software industry. Skilled in Front-end Development.
-   I have 3 years of experience in HTML, CSS, SCSS, JavaScript, Bootstrap, tailwind CSS, StyledComponent, React JS and Next JS. Hence,
-   I have successfully completed several web projects from scratch. 
-   Yet, I learn continuously and never stop exploring new technologies.
-   So, I have also gained knowledge of Node JS, Express JS, Mongo DB, Python,
-   firebase and React Native with time.
+  about: `I am a software engineering student with a passion for technology and business. It is my career objective to improve upon my
+  understanding within the technological space and solve complex problems within a business scenario pushing the frontier for digital innovation.
   `,
 
   experience: [
@@ -42,17 +36,6 @@ export const info = {
         "✓ Others tasks connected to the nature of the job",
         "✓ Code Improvements and Refactoring ",
         "✓ Best Practices and Rules Maintainer",
-      ],
-    },
-
-    {
-      name: "Interns Pakistan",
-      location: "Pakistan",
-      startDate: "Oct 2020",
-      endDate: "Nov 2020",
-      description: [
-        "An Immersive Internship Program that prepares me for the world's most in-demand career. A six weeks program completely based on learning and challenges.",
-        "The internship track is built by an industry expert that let develop the skills in the areas most important ",
       ],
     },
   ],
