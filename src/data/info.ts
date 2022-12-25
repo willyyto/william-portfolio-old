@@ -20,7 +20,7 @@ export const info = {
 
     {
       name: "Benevolence Financial Group",
-      location: "Amsterdam, North Holland, Netherlands",
+      location: "Macquarie Park, NSW",
       startDate: "Aug 2020",
       endDate: "Apr 2022",
       description: [
