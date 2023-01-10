@@ -6,7 +6,7 @@ export interface IMetaHead {
 
 export interface IHeroProps {
   name: string;
-  about: string;
+  about: string[];
 }
 
 export interface IExperience {
@@ -19,6 +19,16 @@ export interface IExperience {
 export interface IExperiences {
   title: string;
   details: IExperience[];
+}
+
+export interface ISkill {
+  name: string;
+  percentage: number;
+}
+
+export interface ISkills {
+  title: string;
+  details: ISkill[];
 }
 
 export interface IProject {

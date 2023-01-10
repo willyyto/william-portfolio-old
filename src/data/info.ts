@@ -2,9 +2,8 @@ export const info = {
   baseUrl: "https://www.williamto.com",
   name: "William To",
   jobDescription: "Software Engineer",
-  about: `I am a software engineering student with a passion for technology and business. It is my career objective to improve upon my
-  understanding within the technological space and solve complex problems within a business scenario pushing the frontier for digital innovation.
-  `,
+  about: ["I am a final-year Software Engineering Student at UTS with an extreme passion for building products that provide a delightful experience and irreplaceable utility for end users. It’s my career objective to constantly learn and improve upon my understanding within the technological space in order to solve challenging problems that I may encounter in the near future.",
+  "I specialise in full stack development and work primarily with C# / .NET Core and .NET Framework on the backend, as well as Svelte and Angular frontends with Typescript/JavaScript to build web applications. Through my work experience, I have been given opportunities to also explore other technological fields such as DevOps, data analytics and cloud technologies such as amazon and azure web services."],
 
   experience: [
     {
@@ -37,7 +36,16 @@ export const info = {
       ],
     },
   ],
-
+  skill: [
+    {
+      name: "CSS",
+      percentage: 99,
+    },
+    {
+      name: "HTML",
+      percentage: 66,
+    }
+  ],
   education: [
     {
       name: "Bachelor of Engineering (Honours) Diploma in Professional Engineering Practice (ICT) (Software)",
@@ -70,7 +78,7 @@ export const info = {
       title: "Personal Portfolio",
       isFeatured: true,
       thumbnail: "/assets/images/astro-portfolio.png",
-      githubUrl: "https://github.com/willyyto",
+      githubUrl: "https://github.com/willyyto/william-portfolio",
       liveUrl: "https://www.williamto.com",
     },
   ],

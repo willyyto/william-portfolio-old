@@ -3,6 +3,7 @@ import { info } from "@data";
 
 import Layout from "@layouts/Layout.astro";
 import Hero from "@components/home/Hero.astro";
+import Skill from "@components/home/Skill.astro";
 import Experience from "@components/home/Experience.astro";
 import ProjectsWrapper from "@components/general/ProjectsWrapper.astro";
 import MetaHead from "@components/general/MetaHead.astro";
@@ -27,12 +28,25 @@ const featureProjects = info.projects.map((project, index) => {
   <body>
     <Layout>
       <Hero name={info.name} about={info.about} />
-      <Experience title={"EXPERIENCE"} details={info.experience} />
+      <!-- <Experience title={"EXPERIENCE"} details={info.experience} />
       <Experience title={"EDUCATION"} details={info.education} />
-      <!-- <section>
-        <h2 class="w-[15rem] dark:text-light mt-16">FEATURE PROJECTS</h2>
+      <section>
+        <h2 class="w-[15rem] dark:text-light mt-16">PERSONAL PROJECTS</h2>
         <ProjectsWrapper projects={featureProjects} />
       </section> -->
+
+      <div class="my-6 flex flex-col items-center">
+        <a href="#down">
+          <div class="animate-bounce bg-white dark:bg-slate-800 p-2 w-10 h-10 ring-1 ring-slate-900/5 dark:ring-slate-200/20 shadow-lg rounded-full flex items-center justify-center">
+            <svg class="w-6 h-6 text-violet-500" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+              <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+            </svg>
+        </div>
+        </a>
+      </div>
+
+      <Skill title={"TRANSFERABLE SKILLS"}details={info.skill}/>
     </Layout>
   </body>
 </html>
+

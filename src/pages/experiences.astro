@@ -1,0 +1,31 @@
+---
+import { info } from "@data";
+
+import ProjectsWrapper from "@components/general/ProjectsWrapper.astro";
+import Experience from "@components/home/Experience.astro";
+import MetaHead from "@components/general/MetaHead.astro";
+import Layout from "@layouts/Layout.astro";
+const Projects = info.projects.map((project) => project);
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <MetaHead
+      title={"Experience & Project"}
+      description={"All projects are available in this page."}
+      ogImageUrl={"/assets/images/portfolio-logo.png"}
+    />
+  </head>
+
+  <body>
+    <Layout>
+      <h1 style="line-height: 1.2; font-size: 2rem;">Professional Experiences</h1>
+      <Experience title={"EXPERIENCE"} details={info.experience} />
+      <h1 style="line-height: 1.2; font-size: 2rem;">Academic Experiences</h1>
+      <Experience title={"EDUCATION"} details={info.education} />
+      <h1 style="line-height: 1.2; font-size: 2rem;">Projects</h1>
+      <ProjectsWrapper projects={Projects} />
+    </Layout>
+  </body>
+</html>
