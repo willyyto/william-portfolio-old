@@ -22,8 +22,7 @@ const { name, about } = Astro.props as IHeroProps;
       {about.map((item) => (
         <p class="dark:text-light text-lg mb-5">{item}</p>
       ))}
-
-      <button class="my-4 rounded-full button-custom w-button hover:scale-110 ease-in-out delay-150 duration-300" style="background:">Download CV</button>
+      <a href="https://www.williamto.com/assets/files/resume.pdf" ><button class="my-4 rounded-full button-custom w-button hover:scale-110 ease-in-out delay-150 duration-300" style="background:">Download CV</button></a>
 
       
     </div>

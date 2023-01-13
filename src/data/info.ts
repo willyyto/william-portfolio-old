@@ -145,7 +145,6 @@ export const info = {
       endDate: "2015",
       description: [
         "•	Developed a web application called cinemeow with a cross-functional team within 10 days to allow users to synchronously create, comment watch and share videos live with their friends.",
-
       ],
     },
   ],
