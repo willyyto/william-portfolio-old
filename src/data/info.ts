@@ -151,7 +151,7 @@ export const info = {
   ],
   socialMedia: {
     github: "https://github.com/willyyto",
-    email: "williamto222@gmail.com",
+    email: "mailto:williamto222@gmail.com",
     linkedin: "https://www.linkedin.com/in/willy2/",
     phone: "tel:+0478812152",
   },
