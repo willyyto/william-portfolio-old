@@ -4,22 +4,26 @@ import { ISkills } from "@types";
 const { title, details } = Astro.props as ISkills;
 ---
 <section>
-  <h1 style="line-height: 1.2; font-size: 2rem;">{title}</h1>
-  <div class="max-w-lg sm:mx-auto md:max-w-none" id="down">
+  <h1 style="line-height: 1.2; font-size: 2rem;" id="skill">{title}</h1>
+  <div class="max-w-lg sm:mx-auto md:max-w-none">
     <div class="grid grid-cols-1 gap-y-16 md:grid-cols-2 md:gap-x-12 md:gap-y-16">
       <div class="relative flex flex-col gap-6 sm:flex-row md:flex-col lg:flex-row">
         <div class="sm:min-w-0 sm:flex-1">
-          <div class="mb-1 text-base font-medium text-blue-700 dark:text-blue-500">HTML</div>
+          <div class="mb-1 text-base font-medium text-blue-700 dark:text-blue-500">HTML/CSS</div>
           <div class="w-full bg-gray-200 rounded-full h-2.5 mb-4 dark:bg-gray-700">
             <div class="bg-blue-600 h-2.5 rounded-full" style="width: 80%"></div>
           </div>
-          <div class="mb-1 text-base font-medium text-red-700 dark:text-red-500">CSS</div>
+          <div class="mb-1 text-base font-medium text-red-700 dark:text-red-500">Angular</div>
           <div class="w-full bg-gray-200 rounded-full h-2.5 mb-4 dark:bg-gray-700">
             <div class="bg-red-600 h-2.5 rounded-full dark:bg-red-500" style="width: 80%"></div>
           </div>
-          <div class="mb-1 text-base font-medium text-green-700 dark:text-green-500">Angular</div>
+          <div class="mb-1 text-base font-medium text-green-700 dark:text-green-500">Svelte</div>
           <div class="w-full bg-gray-200 rounded-full h-2.5 mb-4 dark:bg-gray-700">
             <div class="bg-green-600 h-2.5 rounded-full dark:bg-green-500" style="width: 75%"></div>
+          </div>
+          <div class="mb-1 text-base font-medium text-orange-700 dark:text-orange-500">Github</div>
+          <div class="w-full bg-gray-200 rounded-full h-2.5 mb-4 dark:bg-gray-700">
+            <div class="bg-orange-600 h-2.5 rounded-full" style="width: 80%"></div>
           </div>
         </div>
       </div>
@@ -34,10 +38,15 @@ const { title, details } = Astro.props as ISkills;
           <div class="w-full bg-gray-200 rounded-full h-2.5 mb-4 dark:bg-gray-700">
             <div class="bg-indigo-600 h-2.5 rounded-full dark:bg-indigo-500" style="width: 80%"></div>
           </div>
-          <div class="mb-1 text-base font-medium text-purple-700 dark:text-purple-500">Svelte</div>
+          <div class="mb-1 text-base font-medium text-rose-700 dark:text-rose-500">SQL</div>
+          <div class="w-full bg-gray-200 rounded-full h-2.5 mb-4 dark:bg-gray-700">
+            <div class="bg-rose-600 h-2.5 rounded-full dark:bg-rose-500" style="width: 80%"></div>
+          </div>
+          <div class="mb-1 text-base font-medium text-purple-700 dark:text-purple-500">SQL</div>
           <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
             <div class="bg-purple-600 h-2.5 rounded-full dark:bg-purple-500" style="width: 60%"></div>
           </div>
+          
         </div>
       </div>
 

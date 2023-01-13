@@ -15,10 +15,13 @@ export const info = {
         "✓ Worked in a cross-functional team utilising agile development",
         "✓ Developing code in accordance with appropriate design and architectural rules",
         "✓ Documenting, testing, deployment, maintenance, support of platforms, applications, databases and solutions",
-        "✓ Help and training of other colleagues",
-        "✓ Others tasks connected to the nature of the job",
-        "✓ Code Improvements and Refactoring ",
-        "✓ Best Practices and Rules Maintainer",
+        "✓ Built internal web application dashboard using sveltekit and .net framework to monitor and manage the company's ",
+        "‎ ‎ ‎ ‎ ‎inhouse data intergration system",
+        "✓ Deploying internal web application onto Azure Web Application",
+        "✓ Responsible for consulting with client to define software requirements and develop web applications. ",
+        "✓ Faciliated the migration of NSW Health Web Application from on-premise to cloud using Amazon Web Service.",
+        "✓ Designed and implemented a more secure security architecture for the NSW Health Patient Web application,",
+        "‎ ‎ ‎ ‎ ‎resulting in a 60% increase in authentication performance.",
       ],
     },
 
@@ -29,7 +32,8 @@ export const info = {
       endDate: "Apr 2022",
       description: [
         "Benevolence Financial Group (BFG) is a social enterprise mortgage and finance brokerage firm which utilises technology to automate the process of applying for a loan.",
-        "✓ Built a proprietary home loan CRM tool using the ASP .NET Framework and sales trekker API for comparing and suggesting home loans to customers",
+        "✓ Built a proprietary home loan CRM tool using the ASP .NET Framework and sales trekker API for comparing and",
+        "‎ ‎ ‎ ‎ ‎suggesting home loans to customers",
         "✓ Supported end to end software development for CRM tool from concept to deployment",
         "✓ Developed landing pages for targeted marketing",
         "✓ Responsible for coordinating the team to ensure technical quality and on time business delivery",
@@ -46,6 +50,65 @@ export const info = {
       percentage: 66,
     }
   ],
+  transferableskills: [
+    {
+      name: "Communication skill",
+      description: [""],
+    },
+  ],
+  picnet: [
+    {
+      name: "NSW Health Database Optimisation",
+      location: "NSW E-Health",
+      description: [
+        "•	Responsible for analysing data and creating optimised views for reporting complex data within NSW Health.",
+        "•	Improved the querying performance of previous reporting views and tables through indexing and caching data.",
+        "•	The key finding from analysing patient data were communicated in a business case report towards NSW Health senior management.",
+        "•	Attained knowledge of SQL Server Management Studio, Server Integration Services, Server Reporting Services, Server Analysis Services, and Server Data Tools."
+      ],
+    },
+    {
+      name: "NSW Health Web Application Security Enhancement",
+      location: "NSW E-Health",
+      description: [
+        "•	Designed and developed a more secure security architecture for the NSW Health Web Application using Active Directory, AngularJS and .Net framework.",
+        "•	Improved authentication performance for the NSW Health Web Application by about 55%.",
+        "•	Facilitated the migration of NSW Health Web Application from on-premises to cloud using Amazon Web Service.",
+        "•	Collaborated with NSW E-Health for the testing and deployment of the Web Application onto the new cloud platform.",
+        "•	Created documentation for the web application including database schemas diagrams for the purpose of documenting the database structure.",
+        "•	Reviewed code and developed unit test to ensure all security features are operational.",
+      ],
+    },
+    {
+      name: "Centazio Data Integration Dashboard ",
+      location: "PicNet",
+      description: [
+        "•	Designed and develop the Centazio dashboard for monitoring the system using Sveltekit, IBM carbon design, Azure Web Service and .Net Framework.",
+        "•	Developed tools for monitoring and managing Azure Integration services using Azure API.",
+        "•	Developed code in accordance with appropriate design and architectural rules.",
+        "•	Working in a cross-functional team utilising agile development.",
+        "•	Deploying dashboard onto Azure Web Application."
+      ],
+    },
+    // {
+    //   name: "Development of EY Customer Transformation Digital Platform",
+    //   location: "Ernst & Young",
+    //   description: [""],
+    // },
+  ],
+  bfg: [
+    {
+      name: "BFG Home Loan CRM Web Application",
+      location: "Benevolence Financial Group",
+      description: [
+        "•	Built a proprietary home loan CRM tool using the ASP .NET Framework and sales trekker API for comparing and suggesting home loans to customers.",
+        "•	Supported end-to-end software development for CRM tools from concept to deployment. ",
+        "•	Developed landing pages for targeted marketing using HTML, CSS and boostrap.",
+        "•	Responsible for coordinating the team to ensure technical quality and on-time business delivery.",
+        "•	Acquired knowledge of Git command line and tortoise git, encompassing creating branches, commits, merging, pull requests, and pushing onto the repository.",
+      ],
+    }
+  ],
   education: [
     {
       name: "Bachelor of Engineering (Honours) Diploma in Professional Engineering Practice (ICT) (Software)",
@@ -53,8 +116,9 @@ export const info = {
       startDate: "2015",
       endDate: "Current",
       description: [
-        " GPA: 6.25",
-        " WAM: 82",
+        "•	Undertook a undergraduate capstone research project on Face Mask Detection using Artificial Intelligence and Machine Learning.",
+        "•	GPA: 6.25",
+        "•	WAM: 82",
       ],
     },
     {
@@ -62,24 +126,83 @@ export const info = {
       location: "Westfield Sports High School",
       startDate: "2009",
       endDate: "2015",
-      description: [""],
+      description: ["•	Designed and developed a web player sidescroller game called enigma run for the final major project within the subject of Industrial Technology Multimedia."],
     },
+    {
+      name: "National Computer Science School (NCSS) Summer Program",
+      location: "University Of Sydney",
+      startDate: "2013",
+      endDate: "2015",
+      description: [
+        "•	Developed a web application called cinemeow with a cross-functional team within 10 days to allow users to synchronously create, comment watch and share videos live with their friends.",
 
+      ],
+    },
   ],
-
   socialMedia: {
     github: "https://github.com/willyyto",
     email: "williamto222@gmail.com",
     linkedin: "https://www.linkedin.com/in/willy2/",
+    phone: "tel:+0478812152",
   },
-
-  projects: [
+  project: [
+    {
+      name: "Personal Portfolio",
+      location: "University Of Technology Sydney",
+      description: [
+        "•	Developed a static website using Astro, HTML, CSS, Tailwind CSS and JavaScript to showcase my skills and projects.",
+        "•	Automated push code changes to the server using CD pipelines within GitHub Action for live deployment.",
+        "•	Deployed website onto a custom domain",
+      ],
+    },
+    {
+      name: "Enigma Run",
+      location: "High School Certificate",
+      description: [
+        "•	Designed, developed and implemented a functional 2D sidescroller web player game by utilizing Unity and the programming language C#.",
+        "•	Individually created all graphics and animation using Adobe Photoshop and Illustrator to maintain a consistent theme throughout the project.",
+        "•	Created a website utilising the bootstrap framework to simplify the CSS process.",
+        "•	Quality tested products and run performance tests to find and eliminate bugs.",
+      ],
+    },
+    {
+      name: "Cinemeow",
+      location: "NCSS Summer Program",
+      description: [
+        "•	Designed and implemented features such as the timestamp-video commenting system and the synchronous video player using JQuery (a JavaScript framework).",
+        "•	Contributed to the development and management of the website’s server by utilising Tornado (Python web framework).",
+        "•	Assumed a leadership role and oversaw the team members’ progression to ensure the completion of the project before the deadline.",
+      ],
+    }
+  ],
+  academicprojects: [
     {
       title: "Personal Portfolio",
       isFeatured: true,
       thumbnail: "/assets/images/astro-portfolio.png",
       githubUrl: "https://github.com/willyyto/william-portfolio",
       liveUrl: "https://www.williamto.com",
+    },
+    {
+      title: "Enigma Run Game",
+      isFeatured: true,
+      thumbnail: "/assets/images/enigma-run.png",
+      githubUrl: "https://github.com/willyyto/EnigmaRun"
+    },
+    {
+      title: "Cinemeow",
+      isFeatured: true,
+      thumbnail: "/assets/images/cinemeow.png",
+      githubUrl: "https://github.com/ncss/projects-2015-3"
+    },
+  ],
+  professionalprojects: [
+    {
+      title: "BFG Home Loan CRM Web Application",
+      isFeatured: true,
+      thumbnail: "/assets/images/bfg-webapp.png",
+      githubUrl: "",
+      liveUrl: "https://bfgloans.com.au/",
     },
   ],
 };

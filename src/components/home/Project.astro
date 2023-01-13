@@ -1,0 +1,28 @@
+---
+import { IExperiences } from "@types";
+
+const { details } = Astro.props as IExperiences;
+---
+
+<section
+  class="flex items-start justify-between flex-col sm:flex-row dark:text-light"
+>
+
+  <div class="w-full" style="margin: 0 50px 0 50px;">
+    {
+      details.map((item) => (
+        <div class="my-8">
+          <div class="flex justify-between items-center flex-wrap">
+            <h3 class="text-xl font-semibold">{item.name}</h3>
+          </div>
+          <p class="text-sm mt-3 text-location-blue">{item.location}</p>
+          <ul class="mt-3">
+            {item.description.map((item) => (
+              <li class="dark:text-background-color">{item}</li>
+            ))}
+          </ul>
+        </div>
+      ))
+    }
+  </div>
+</section>
