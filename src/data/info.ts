@@ -156,6 +156,15 @@ export const info = {
       ],
     },
     {
+      name: "Cinemeow",
+      location: "NCSS Summer Program",
+      description: [
+        "•	Designed and implemented features such as the timestamp-video commenting system and the synchronous video player using JQuery (a JavaScript framework).",
+        "•	Contributed to the development and management of the website’s server by utilising Tornado (Python web framework).",
+        "•	Assumed a leadership role and oversaw the team members’ progression to ensure the completion of the project before the deadline.",
+      ],
+    },
+    {
       name: "Enigma Run",
       location: "High School Certificate",
       description: [
@@ -165,15 +174,6 @@ export const info = {
         "•	Quality tested products and run performance tests to find and eliminate bugs.",
       ],
     },
-    {
-      name: "Cinemeow",
-      location: "NCSS Summer Program",
-      description: [
-        "•	Designed and implemented features such as the timestamp-video commenting system and the synchronous video player using JQuery (a JavaScript framework).",
-        "•	Contributed to the development and management of the website’s server by utilising Tornado (Python web framework).",
-        "•	Assumed a leadership role and oversaw the team members’ progression to ensure the completion of the project before the deadline.",
-      ],
-    }
   ],
   academicprojects: [
     {
@@ -184,16 +184,16 @@ export const info = {
       liveUrl: "https://www.williamto.com",
     },
     {
-      title: "Enigma Run Game",
-      isFeatured: true,
-      thumbnail: "/assets/images/enigma-run.png",
-      githubUrl: "https://github.com/willyyto/EnigmaRun"
-    },
-    {
       title: "Cinemeow",
       isFeatured: true,
       thumbnail: "/assets/images/cinemeow.png",
       githubUrl: "https://github.com/ncss/projects-2015-3"
+    },
+    {
+      title: "Enigma Run Game",
+      isFeatured: true,
+      thumbnail: "/assets/images/enigma-run.png",
+      githubUrl: "https://github.com/willyyto/EnigmaRun"
     },
   ],
   professionalprojects: [
