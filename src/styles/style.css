@@ -43,5 +43,34 @@
   html {
     scroll-behavior: smooth;
    }
+
+   .button-custom {
+    padding: 10px 40px;
+    border-radius: 100px;
+    background-color: #8356ff;
+    background-image: -webkit-gradient(linear, left top, right top, from(#9969ff), to(#6139ff));
+    background-image: linear-gradient(90deg, #9969ff, #6139ff);
+    -webkit-transition: all 200ms ease;
+    transition: all 200ms ease;
+    font-family: Colfax, sans-serif;
+    font-size: 19px;
+    line-height: 100%;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .w-button {
+    display: inline-block;
+    background-color: #3898EC;
+    color: white;
+    border: 0;
+    line-height: inherit;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+    input.w-button {
+      -webkit-appearance: button;
+    }
    
 }

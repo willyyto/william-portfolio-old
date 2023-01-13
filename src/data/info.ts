@@ -53,7 +53,17 @@ export const info = {
   transferableskills: [
     {
       name: "Communication skill",
-      description: [""],
+      description: [
+        "Having participated in numerous academic and professional projects and experiences, I prioritise open, honest, concise, and succinct communication in a team. As these are the key communication attributes that nurture a team environment that provides and receives feedback, addresses issues and meets overall objectives. Through dealing with industry stakeholders as a consultant at Picnet, I have gradually developed competency in open written and presentational communication amongst multi-disciplinary teams to convey ideas concisely and identify requirements. ",
+      ],
+    },
+    {
+      name: "Time Management and Organisation",
+      description: ["With full-time employment and full-time study, time and work management is a critical ability that I have swiftly gained through my experience. To manage my lifestyle, I've learned to swiftly organise my days into a schedule, prioritising tasks from most critical to least important. This skill set is also illustrated by my professional experience, as I am responsible for project management and organising meetings with stakeholders to accomplish deliverables."],
+    },
+    {
+      name: "Leadership skill",
+      description: ["During my time at the Benevolence Financial Group, I was in charge of leading a team of software engineers in the development of their in-house automated home loan CRM digital platform. I was largely responsible for working with a cross-functional team of mortgage brokers to build home loan tools for the web application. Overseeing team operations, project and task management, and employing agile development methodologies to accomplish targets and deliverables would be among my responsibilities."],
     },
   ],
   picnet: [
@@ -152,6 +162,7 @@ export const info = {
       description: [
         "•	Developed a static website using Astro, HTML, CSS, Tailwind CSS and JavaScript to showcase my skills and projects.",
         "•	Automated push code changes to the server using CD pipelines within GitHub Action for live deployment.",
+        "•	Built a responsive website for desktop, mobile and tablet platform.",
         "•	Deployed website onto a custom domain",
       ],
     },
