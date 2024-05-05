@@ -1,68 +1,125 @@
 ---
-import { info } from "@data";
+import { info } from '@data';
 
-import MetaHead from "@components/general/MetaHead.astro";
-import Layout from "@layouts/Layout.astro";
-
+import MetaHead from '@components/general/MetaHead.astro';
+import Layout from '@layouts/Layout.astro';
 ---
 
+<!doctype html>
+<html lang='en'>
+	<head>
+		<MetaHead
+			title={'Teamwork'}
+			description={''}
+			ogImageUrl={'/william-portfolio-old/assets/images/portfolio-logo.png'}
+		/>
+	</head>
 
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <MetaHead
-      title={"Teamwork"}
-      description={""}
-      ogImageUrl={"/assets/images/portfolio-logo.png"}
-    />
-  </head>
-
-  <body>
-    <Layout>
-      <h1 style="line-height: 1.2; font-size: 4rem;">Teamwork & Services</h1>
-      <div class="py-2 grid grid-cols-1 md:grid-cols-2 gap-4 ">
-        <div>
-          <h3 class="px-4 dark:text-light text-3xl font-bold" style="line-height: 1.2; font-size: 1.5rem;">National Computer Science School (NCSS) Summer Program</h3>
-          <p class="px-4 pt-2 dark:text-light">
-            The National Computer Science School (NCSS) Summer Program is a ten-day bootcamp designed to bring together young talented students from around Australia for an intensive programming course of computer programming and website development. The program requires all participants to resides within the accommodation provided by NCSS. Within the NCSS Summer Program, participants are placed into randomized groups of 10 members where they are required to build a social networking site within 10 days. 
-          </p>
-          <ul class="px-4 mt-3">
-              <li class="py-1 dark:text-background-color">•	Collaborated in a team of ten unidentified during the ten days to develop a social networking site. </li>
-              <li class="py-1 dark:text-background-color">•	Participated in daily meetings with team members and the supervisor to brainstorm on ideas, acquire and provide feedback on the developed project.</li>
-              <li class="py-1 dark:text-background-color">•	Network with industry partners such as Atlassian, Google and Wise Tech in order to improve the value of the developed Social Network Site.  </li>
-              <li class="py-1 dark:text-background-color">•	Worked with fellow leaders to guide members to the completion of the project within the 10 day deadline.  </li>
-          </ul>
-        </div>
-        <!-- ... -->
-        <div>
-          <img src="/assets/images/ncss.png" alt="" class="w-full h-full object-cover rounded-lg sm:h-60 sm:col-span-2 lg:col-span-full shadow-lg" loading="lazy">
-        </div>
-      </div>
-      <div class="py-4 grid grid-cols-1 mt-12 md:grid-cols-2 gap-4">
-        <div class="order-last md:order-first">
-          <img src="/assets/images/ewb.jpg" alt="" class="w-full h-full object-cover rounded-lg sm:h-60 sm:col-span-2 lg:col-span-full shadow-lg" loading="lazy">
-        </div>
-        <div>
-          <h3 class="px-4 dark:text-light text-3xl font-bold" style="line-height: 1.2; font-size: 1.5rem;">Engineering Without Borders</h3>
-          <p class="px-4 pt-2 dark:text-light">
-            Engineering without Borders is a non-profit organisation based in Australia that strives to enhance the quality of life for low-income communities via teaching and the implementation of sustainable engineering projects. Engineering without borders is largely focused on four areas: clean water, sanitation and hygiene, adequate housing, renewable energy, and technological availability. This organization's mission is to promote humanitarian engineering in order to assist underserved areas.
-          </p>
-          <ul class="px-4 mt-3">
-              <li class="py-1 dark:text-background-color">•	Collaborated with a multidisciplinary engineering team to produce a low-cost, eco-friendly filtering device that meets the essential requirements for use in disadvantaged communities.</li>
-              <li class="py-1 dark:text-background-color">•	Participated in weekly team meetings to share ideas, receive and offer feedback, and create solutions.</li>
-              <li class="py-1 dark:text-background-color">•	Monitored team progress to ensure deliverables were completed on time.</li>
-              <li class="py-1 dark:text-background-color">•	Pitched proposal together with team to Engineering Without Borders stakeholders.</li>
-          </ul>
-        </div>
-      </div>
-    </Layout>
-
-  </body>
+	<body>
+		<Layout>
+			<h1 style='line-height: 1.2; font-size: 4rem;'>Teamwork & Services</h1>
+			<div class='py-2 grid grid-cols-1 md:grid-cols-2 gap-4'>
+				<div>
+					<h3
+						class='px-4 dark:text-light text-3xl font-bold'
+						style='line-height: 1.2; font-size: 1.5rem;'
+					>
+						National Computer Science School (NCSS) Summer Program
+					</h3>
+					<p class='px-4 pt-2 dark:text-light'>
+						The National Computer Science School (NCSS) Summer Program is a
+						ten-day bootcamp designed to bring together young talented students
+						from around Australia for an intensive programming course of
+						computer programming and website development. The program requires
+						all participants to resides within the accommodation provided by
+						NCSS. Within the NCSS Summer Program, participants are placed into
+						randomized groups of 10 members where they are required to build a
+						social networking site within 10 days.
+					</p>
+					<ul class='px-4 mt-3'>
+						<li class='py-1 dark:text-background-color'>
+							• Collaborated in a team of ten unidentified during the ten days
+							to develop a social networking site.
+						</li>
+						<li class='py-1 dark:text-background-color'>
+							• Participated in daily meetings with team members and the
+							supervisor to brainstorm on ideas, acquire and provide feedback on
+							the developed project.
+						</li>
+						<li class='py-1 dark:text-background-color'>
+							• Network with industry partners such as Atlassian, Google and
+							Wise Tech in order to improve the value of the developed Social
+							Network Site.
+						</li>
+						<li class='py-1 dark:text-background-color'>
+							• Worked with fellow leaders to guide members to the completion of
+							the project within the 10 day deadline.
+						</li>
+					</ul>
+				</div>
+				<!-- ... -->
+				<div>
+					<img
+						src='/assets/images/ncss.png'
+						alt=''
+						class='w-full h-full object-cover rounded-lg sm:h-60 sm:col-span-2 lg:col-span-full shadow-lg'
+						loading='lazy'
+					/>
+				</div>
+			</div>
+			<div class='py-4 grid grid-cols-1 mt-12 md:grid-cols-2 gap-4'>
+				<div class='order-last md:order-first'>
+					<img
+						src='/assets/images/ewb.jpg'
+						alt=''
+						class='w-full h-full object-cover rounded-lg sm:h-60 sm:col-span-2 lg:col-span-full shadow-lg'
+						loading='lazy'
+					/>
+				</div>
+				<div>
+					<h3
+						class='px-4 dark:text-light text-3xl font-bold'
+						style='line-height: 1.2; font-size: 1.5rem;'
+					>
+						Engineering Without Borders
+					</h3>
+					<p class='px-4 pt-2 dark:text-light'>
+						Engineering without Borders is a non-profit organisation based in
+						Australia that strives to enhance the quality of life for low-income
+						communities via teaching and the implementation of sustainable
+						engineering projects. Engineering without borders is largely focused
+						on four areas: clean water, sanitation and hygiene, adequate
+						housing, renewable energy, and technological availability. This
+						organization's mission is to promote humanitarian engineering in
+						order to assist underserved areas.
+					</p>
+					<ul class='px-4 mt-3'>
+						<li class='py-1 dark:text-background-color'>
+							• Collaborated with a multidisciplinary engineering team to
+							produce a low-cost, eco-friendly filtering device that meets the
+							essential requirements for use in disadvantaged communities.
+						</li>
+						<li class='py-1 dark:text-background-color'>
+							• Participated in weekly team meetings to share ideas, receive and
+							offer feedback, and create solutions.
+						</li>
+						<li class='py-1 dark:text-background-color'>
+							• Monitored team progress to ensure deliverables were completed on
+							time.
+						</li>
+						<li class='py-1 dark:text-background-color'>
+							• Pitched proposal together with team to Engineering Without
+							Borders stakeholders.
+						</li>
+					</ul>
+				</div>
+			</div>
+		</Layout>
+	</body><style>
+		.item-list {
+			padding-left: 20px;
+			padding-top: 5px;
+			padding-bottom: 5px;
+		}
+	</style>
 </html>
-<style>
-    .item-list{
-        padding-left: 20px;
-        padding-top: 5px;
-        padding-bottom: 5px;
-    }
-</style>

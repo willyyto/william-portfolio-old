@@ -1,47 +1,70 @@
 ---
-import { info } from "@data";
+import { info } from '@data';
 
-import MetaHead from "@components/general/MetaHead.astro";
-import Layout from "@layouts/Layout.astro";
-
+import MetaHead from '@components/general/MetaHead.astro';
+import Layout from '@layouts/Layout.astro';
 ---
 
+<!doctype html>
+<html lang='en'>
+	<head>
+		<MetaHead
+			title={'Research'}
+			description={''}
+			ogImageUrl={'/william-portfolio-old/assets/images/portfolio-logo.png'}
+		/>
+	</head>
 
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <MetaHead
-      title={"Research"}
-      description={""}
-      ogImageUrl={"/assets/images/portfolio-logo.png"}
-    />
-  </head>
-
-  <body>
-    <Layout>
-
-      <h1 style="line-height: 1.2; font-size: 4rem;">Research</h1>
-      <section>
-        <h3 class="py-2 dark:text-light text-3xl font-bold" style="line-height: 1.2; font-size: 2rem;">Face Mask Detecting Using Artificial Intelligence, Machine Learning and Computer Vision</h3>
-        <p class="dark:text-light">For my final capstone project, I have decided my research on face mask detection using Artificial Intelligence and Machine Learning. As Covid-19 has halted the world causing an impact on more than 603 million people and casualties in almost 7 million deaths. The purpose of my research on face mask detection systems is to counteract the transmission of the virus through the implementation of advanced artificial intelligence technology to reduce transmission. The research capstone project explores the current obstructions within today’s society that are currently preventing the implementation of face mask detection technology, as well as the numerous object detection algorithms which can be utilised to detect face masks within individuals quick and precisely.</p>
-        <!-- <ul class="px-4 mt-3">
+	<body>
+		<Layout>
+			<h1 style='line-height: 1.2; font-size: 4rem;'>Research</h1>
+			<section>
+				<h3
+					class='py-2 dark:text-light text-3xl font-bold'
+					style='line-height: 1.2; font-size: 2rem;'
+				>
+					Face Mask Detecting Using Artificial Intelligence, Machine Learning
+					and Computer Vision
+				</h3>
+				<p class='dark:text-light'>
+					For my final capstone project, I have decided my research on face mask
+					detection using Artificial Intelligence and Machine Learning. As
+					Covid-19 has halted the world causing an impact on more than 603
+					million people and casualties in almost 7 million deaths. The purpose
+					of my research on face mask detection systems is to counteract the
+					transmission of the virus through the implementation of advanced
+					artificial intelligence technology to reduce transmission. The
+					research capstone project explores the current obstructions within
+					today’s society that are currently preventing the implementation of
+					face mask detection technology, as well as the numerous object
+					detection algorithms which can be utilised to detect face masks within
+					individuals quick and precisely.
+				</p>
+				<!-- <ul class="px-4 mt-3">
           <li class="py-1 dark:text-background-color">•	Collaborated in a team of ten unidentified during the ten days to develop a social networking site. </li>
           <li class="py-1 dark:text-background-color">•	Participated in daily meetings with team members and the supervisor to brainstorm on ideas, acquire and provide feedback on the developed project.</li>
           <li class="py-1 dark:text-background-color">•	Network with industry partners such as Atlassian, Google and Wise Tech in order to improve the value of the developed Social Network Site.  </li>
           <li class="py-1 dark:text-background-color">•	Worked with fellow leaders to guide members to the completion of the project within the 10 day deadline.  </li>
       </ul> -->
-      <div class="container mx-auto  text-center md:text-right lg:text-right">
-        <a href="https://www.williamto.com/assets/files/face_mask_detection_research_question.pdf" ><button class="my-4 rounded-full button-custom w-button hover:scale-110 ease-in-out delay-150 duration-300" style="background:">Read More</button></a>
+				<div class='container mx-auto text-center md:text-right lg:text-right'>
+					<a
+						href='https://www.williamto.com/assets/files/face_mask_detection_research_question.pdf'
+						><button
+							class='my-4 rounded-full button-custom w-button hover:scale-110 ease-in-out delay-150 duration-300'
+							style='background:'>Read More</button
+						></a
+					>
+				</div>
 
-      </div>
-      
-        
-        <div class="px-20 py-5">
-          <img src="/assets/images/face-mask-detection.jpg" alt="" class="w-100 h-100 object-cover rounded-lg shadow-lg" loading="lazy">
-        </div>
-        
-      </section>
-
-    </Layout>
-  </body>
+				<div class='px-20 py-5'>
+					<img
+						src='/assets/images/face-mask-detection.jpg'
+						alt=''
+						class='w-100 h-100 object-cover rounded-lg shadow-lg'
+						loading='lazy'
+					/>
+				</div>
+			</section>
+		</Layout>
+	</body>
 </html>

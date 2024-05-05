@@ -1,41 +1,56 @@
 ---
-import { info } from "@data";
+import { info } from '@data';
 
-import ProjectsWrapper from "@components/general/ProjectsWrapper.astro";
-import Experience from "@components/home/Experience.astro";
-import List from "@components/home/List.astro";
-import Project from "@components/home/Project.astro";
-import MetaHead from "@components/general/MetaHead.astro";
-import Layout from "@layouts/Layout.astro";
+import ProjectsWrapper from '@components/general/ProjectsWrapper.astro';
+import Experience from '@components/home/Experience.astro';
+import List from '@components/home/List.astro';
+import Project from '@components/home/Project.astro';
+import MetaHead from '@components/general/MetaHead.astro';
+import Layout from '@layouts/Layout.astro';
 const Projects = info.academicprojects.map((project) => project);
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <MetaHead
-      title={"Academic Experience & Project"}
-      description={"All projects are available in this page."}
-      ogImageUrl={"/assets/images/portfolio-logo.png"}
-    />
-  </head>
+<!doctype html>
+<html lang='en'>
+	<head>
+		<MetaHead
+			title={'Academic Experience & Project'}
+			description={'All projects are available in this page.'}
+			ogImageUrl={'/william-portfolio-old/assets/images/portfolio-logo.png'}
+		/>
+	</head>
 
-  <body>
-    <Layout>
-      <h1 style="line-height: 1.2; font-size: 4rem;">Academic Experiences & Projects</h1>
-      <section>
-        <h3 class="dark:text-light text-3xl font-bold" style="line-height: 1.2; font-size: 2rem;">Academic Experience</h3>
-      </section>
-      <List details={info.education}/>
-      <section>
-        <h3 class="dark:text-light text-3xl font-bold" style="line-height: 1.2; font-size: 2rem;">Projects</h3>
-      </section>
-      <Project details={info.project} />
-      <div class="pt-4 aspect-w-16 aspect-h-7" style="align:center">
-        <iframe title="vimeo-player" src="https://player.vimeo.com/video/788888508?h=394b839436" frameborder="0" allowfullscreen></iframe>
-      </div>
-      <ProjectsWrapper projects={Projects} />
-    </Layout>
-  </body>
+	<body>
+		<Layout>
+			<h1 style='line-height: 1.2; font-size: 4rem;'>
+				Academic Experiences & Projects
+			</h1>
+			<section>
+				<h3
+					class='dark:text-light text-3xl font-bold'
+					style='line-height: 1.2; font-size: 2rem;'
+				>
+					Academic Experience
+				</h3>
+			</section>
+			<List details={info.education} />
+			<section>
+				<h3
+					class='dark:text-light text-3xl font-bold'
+					style='line-height: 1.2; font-size: 2rem;'
+				>
+					Projects
+				</h3>
+			</section>
+			<Project details={info.project} />
+			<div class='pt-4 aspect-w-16 aspect-h-7' style='align:center'>
+				<iframe
+					title='vimeo-player'
+					src='https://player.vimeo.com/video/788888508?h=394b839436'
+					frameborder='0'
+					allowfullscreen></iframe>
+			</div>
+			<ProjectsWrapper projects={Projects} />
+		</Layout>
+	</body>
 </html>
-
